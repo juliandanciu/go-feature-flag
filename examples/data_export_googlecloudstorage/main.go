@@ -6,12 +6,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter/gcstorageexporter"
-	"github.com/thomaspoignant/go-feature-flag/retriever/fileretriever"
+	"github.com/juliandanciu/go-feature-flag/exporter/gcstorageexporter"
+	"github.com/juliandanciu/go-feature-flag/retriever/fileretriever"
 	"google.golang.org/api/option"
 
-	ffclient "github.com/thomaspoignant/go-feature-flag"
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
+	ffclient "github.com/juliandanciu/go-feature-flag"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
 )
 
 func main() {

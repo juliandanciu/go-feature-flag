@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/notifier/logsnotifier"
+	"github.com/juliandanciu/go-feature-flag/notifier/logsnotifier"
 
-	"github.com/thomaspoignant/go-feature-flag/internal/cache"
-	"github.com/thomaspoignant/go-feature-flag/internal/dataexporter"
-	"github.com/thomaspoignant/go-feature-flag/internal/fflog"
+	"github.com/juliandanciu/go-feature-flag/internal/cache"
+	"github.com/juliandanciu/go-feature-flag/internal/dataexporter"
+	"github.com/juliandanciu/go-feature-flag/internal/fflog"
 )
 
 // Init the feature flag component with the configuration of ffclient.Config

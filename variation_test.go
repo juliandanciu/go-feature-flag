@@ -9,22 +9,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter/fileexporter"
+	"github.com/juliandanciu/go-feature-flag/exporter/fileexporter"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter/logsexporter"
-	"github.com/thomaspoignant/go-feature-flag/internal/dataexporter"
+	"github.com/juliandanciu/go-feature-flag/exporter/logsexporter"
+	"github.com/juliandanciu/go-feature-flag/internal/dataexporter"
 
-	"github.com/thomaspoignant/go-feature-flag/retriever/fileretriever"
+	"github.com/juliandanciu/go-feature-flag/retriever/fileretriever"
 
+	"github.com/juliandanciu/go-feature-flag/internal/flag"
+	flagv1 "github.com/juliandanciu/go-feature-flag/internal/flagv1"
+	"github.com/juliandanciu/go-feature-flag/internal/model"
 	"github.com/stretchr/testify/assert"
-	"github.com/thomaspoignant/go-feature-flag/internal/flag"
-	flagv1 "github.com/thomaspoignant/go-feature-flag/internal/flagv1"
-	"github.com/thomaspoignant/go-feature-flag/internal/model"
 
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
-	"github.com/thomaspoignant/go-feature-flag/internal/cache"
-	"github.com/thomaspoignant/go-feature-flag/testutils"
-	"github.com/thomaspoignant/go-feature-flag/testutils/testconvert"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
+	"github.com/juliandanciu/go-feature-flag/internal/cache"
+	"github.com/juliandanciu/go-feature-flag/testutils"
+	"github.com/juliandanciu/go-feature-flag/testutils/testconvert"
 )
 
 type cacheMock struct {

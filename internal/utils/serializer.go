@@ -1,6 +1,6 @@
 package utils
 
-import "github.com/thomaspoignant/go-feature-flag/ffuser"
+import "github.com/juliandanciu/go-feature-flag/ffuser"
 
 // UserToMap convert the user to a MAP to use the query on it.
 func UserToMap(u ffuser.User) map[string]interface{} {

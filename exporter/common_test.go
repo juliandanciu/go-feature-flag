@@ -6,7 +6,7 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter"
+	"github.com/juliandanciu/go-feature-flag/exporter"
 
 	"github.com/stretchr/testify/assert"
 )

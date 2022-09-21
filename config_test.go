@@ -7,15 +7,15 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"
-	"github.com/thomaspoignant/go-feature-flag/retriever"
-	"github.com/thomaspoignant/go-feature-flag/retriever/fileretriever"
-	"github.com/thomaspoignant/go-feature-flag/retriever/githubretriever"
-	"github.com/thomaspoignant/go-feature-flag/retriever/httpretriever"
-	"github.com/thomaspoignant/go-feature-flag/retriever/s3retriever"
+	"github.com/juliandanciu/go-feature-flag/retriever"
+	"github.com/juliandanciu/go-feature-flag/retriever/fileretriever"
+	"github.com/juliandanciu/go-feature-flag/retriever/githubretriever"
+	"github.com/juliandanciu/go-feature-flag/retriever/httpretriever"
+	"github.com/juliandanciu/go-feature-flag/retriever/s3retriever"
 
 	"github.com/stretchr/testify/assert"
 
-	ffClient "github.com/thomaspoignant/go-feature-flag"
+	ffClient "github.com/juliandanciu/go-feature-flag"
 )
 
 func TestConfig_GetRetriever(t *testing.T) {

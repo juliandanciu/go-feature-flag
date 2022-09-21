@@ -3,7 +3,7 @@ package exporter
 import (
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
 )
 
 func NewFeatureEvent(

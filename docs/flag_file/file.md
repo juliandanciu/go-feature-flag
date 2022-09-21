@@ -3,14 +3,14 @@ sidebar_position: 4
 ---
 
 # File
-The [**File Retriever**](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag/retriever/fileretriever/#Retriever) will read a local file to get your flags.
+The [**File Retriever**](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag/retriever/fileretriever/#Retriever) will read a local file to get your flags.
 
 !!! tip
     Using a file to store your flags is not recommend, except if it is in a shared folder for all your services.
 
 ## Example
 ```go linenums="1"
-import 	"github.com/thomaspoignant/go-feature-flag/retriever/file"
+import 	"github.com/juliandanciu/go-feature-flag/retriever/file"
 // ...
 
 err := ffclient.Init(ffclient.Config{

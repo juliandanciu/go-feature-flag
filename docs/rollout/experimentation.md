@@ -60,7 +60,7 @@ An **experimentation rollout** is when your flag is configured to be served only
         end = 2021-03-21T05:00:00.100Z
     ```
  
-Check this [example](https://github.com/thomaspoignant/go-feature-flag/tree/main/examples/rollout_scheduled) to see how it works. 
+Check this [example](https://github.com/juliandanciu/go-feature-flag/tree/main/examples/rollout_scheduled) to see how it works. 
 
 ## Configuration fields
 

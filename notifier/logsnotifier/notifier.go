@@ -4,9 +4,9 @@ import (
 	"log"
 	"sync"
 
-	"github.com/thomaspoignant/go-feature-flag/notifier"
+	"github.com/juliandanciu/go-feature-flag/notifier"
 
-	"github.com/thomaspoignant/go-feature-flag/internal/fflog"
+	"github.com/juliandanciu/go-feature-flag/internal/fflog"
 )
 
 type Notifier struct {

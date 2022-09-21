@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ## Installation
 ```bash
-go get github.com/thomaspoignant/go-feature-flag
+go get github.com/juliandanciu/go-feature-flag
 ```
 
 ## SDK Initialisation
@@ -37,4 +37,4 @@ if hasFlag {
     // flag "test-flag" is false for the user
 }
 ```
-You can find more examples in the [examples/](https://github.com/thomaspoignant/go-feature-flag/tree/main/examples) directory.
+You can find more examples in the [examples/](https://github.com/juliandanciu/go-feature-flag/tree/main/examples) directory.

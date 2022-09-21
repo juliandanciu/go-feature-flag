@@ -4,9 +4,9 @@ sidebar_position: 3
 
 # Configuration
 `go-feature-flag` needs to be initialized to be used.  
-During the initialization you must give a [`ffclient.Config{}`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#Config) configuration object.  
+During the initialization you must give a [`ffclient.Config{}`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#Config) configuration object.  
 
-[`ffclient.Config{}`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#Config) is the only location where you can put the configuration.
+[`ffclient.Config{}`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#Config) is the only location where you can put the configuration.
 
 ## Configuration fields
 
@@ -63,7 +63,7 @@ In all the examples above, they demonstrate using `go-feature-flag` in its singl
 You can also create many `go-feature-flag` clients to use in your application.  
 
 Each will have its own unique set of configurations and flags. Each can read from a different config file and from different places.  
-All the functions that `go-feature-flag` package supports are mirrored as methods on a [`GoFeatureFlag`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#GoFeatureFlag).
+All the functions that `go-feature-flag` package supports are mirrored as methods on a [`GoFeatureFlag`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#GoFeatureFlag).
 
 #### Example
 
@@ -81,7 +81,7 @@ y.BoolVariation("test-flag", user, false)
 // ...
 ```
 
-When working with multiple [`GoFeatureFlag`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#GoFeatureFlag), it is up to the user to keep track of the different [`GoFeatureFlag`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#GoFeatureFlag) instances.
+When working with multiple [`GoFeatureFlag`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#GoFeatureFlag), it is up to the user to keep track of the different [`GoFeatureFlag`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#GoFeatureFlag) instances.
 
 ## Offline mode
 In some situations, you might want to stop making remote calls and fall back to default values for your feature flags.  

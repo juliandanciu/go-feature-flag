@@ -3,8 +3,8 @@ package cache
 import (
 	"fmt"
 
-	"github.com/thomaspoignant/go-feature-flag/internal/flag"
-	"github.com/thomaspoignant/go-feature-flag/internal/flagv1"
+	"github.com/juliandanciu/go-feature-flag/internal/flag"
+	"github.com/juliandanciu/go-feature-flag/internal/flagv1"
 )
 
 type InMemoryCache struct {

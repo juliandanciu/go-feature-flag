@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/thomaspoignant/go-feature-flag/retriever/fileretriever"
+	"github.com/juliandanciu/go-feature-flag/retriever/fileretriever"
 
 	"github.com/stretchr/testify/assert"
 )

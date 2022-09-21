@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/internal/flag"
-	flagv1 "github.com/thomaspoignant/go-feature-flag/internal/flagv1"
+	"github.com/juliandanciu/go-feature-flag/internal/flag"
+	flagv1 "github.com/juliandanciu/go-feature-flag/internal/flagv1"
 	"gopkg.in/yaml.v3"
 
 	"github.com/pelletier/go-toml"

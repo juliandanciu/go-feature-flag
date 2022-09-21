@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/internal/flag"
+	"github.com/juliandanciu/go-feature-flag/internal/flag"
 
+	"github.com/juliandanciu/go-feature-flag/ffuser"
+	"github.com/juliandanciu/go-feature-flag/internal/utils"
 	"github.com/nikunjy/rules/parser"
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
-	"github.com/thomaspoignant/go-feature-flag/internal/utils"
 )
 
 // percentageMultiplier is the multiplier used to have a bigger range of possibility.

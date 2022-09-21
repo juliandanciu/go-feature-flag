@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/juliandanciu/go-feature-flag/internal/flag"
+	flagv1 "github.com/juliandanciu/go-feature-flag/internal/flagv1"
 	"github.com/stretchr/testify/assert"
-	"github.com/thomaspoignant/go-feature-flag/internal/flag"
-	flagv1 "github.com/thomaspoignant/go-feature-flag/internal/flagv1"
 
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
-	"github.com/thomaspoignant/go-feature-flag/testutils/testconvert"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
+	"github.com/juliandanciu/go-feature-flag/testutils/testconvert"
 )
 
 func TestFlag_value(t *testing.T) {

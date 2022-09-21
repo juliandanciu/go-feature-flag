@@ -38,7 +38,7 @@ linters-settings:
   golint:
     min-confidence: 0.6
   gofumpt:
-    module-path: github.com/thomaspoignant/go-feature-flag
+    module-path: github.com/juliandanciu/go-feature-flag
     lang-version: "1.17"
 issues:
   exclude-rules:

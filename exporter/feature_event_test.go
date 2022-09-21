@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/juliandanciu/go-feature-flag/exporter"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
 	"github.com/stretchr/testify/assert"
-	"github.com/thomaspoignant/go-feature-flag/exporter"
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
 )
 
 func TestNewFeatureEvent(t *testing.T) {

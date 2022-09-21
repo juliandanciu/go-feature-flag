@@ -11,9 +11,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/thomaspoignant/go-feature-flag/notifier"
+	"github.com/juliandanciu/go-feature-flag/notifier"
 
-	"github.com/thomaspoignant/go-feature-flag/internal"
+	"github.com/juliandanciu/go-feature-flag/internal"
 )
 
 const (

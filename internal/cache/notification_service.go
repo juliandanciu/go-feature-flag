@@ -4,11 +4,11 @@ import (
 	"log"
 	"sync"
 
-	"github.com/thomaspoignant/go-feature-flag/internal/fflog"
+	"github.com/juliandanciu/go-feature-flag/internal/fflog"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/thomaspoignant/go-feature-flag/internal/flag"
-	"github.com/thomaspoignant/go-feature-flag/notifier"
+	"github.com/juliandanciu/go-feature-flag/internal/flag"
+	"github.com/juliandanciu/go-feature-flag/notifier"
 )
 
 type Service interface {

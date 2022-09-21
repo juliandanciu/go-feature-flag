@@ -5,12 +5,12 @@ sidebar_position: 4
 # Custom Notifier
 
 To create a custom notifier you must have a `struct` that implements the
-[`notifier.Notifier`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag/notifier/notifier) interface.
+[`notifier.Notifier`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag/notifier/notifier) interface.
 
 ```go linenums="1"
 import (
-	ffclient "github.com/thomaspoignant/go-feature-flag"
-	"github.com/thomaspoignant/go-feature-flag/notifier/notifier"
+	ffclient "github.com/juliandanciu/go-feature-flag"
+	"github.com/juliandanciu/go-feature-flag/notifier/notifier"
 	"sync"
 )
 

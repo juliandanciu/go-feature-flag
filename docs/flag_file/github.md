@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Github
 
-The [**Github Retriever**](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag/retriever/githubretriever/#Retriever)
+The [**Github Retriever**](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag/retriever/githubretriever/#Retriever)
 will perform an HTTP Request with your GitHub configuration to get your flags.
 
 !!! Tip

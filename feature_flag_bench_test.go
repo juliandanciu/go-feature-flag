@@ -8,11 +8,11 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/retriever/fileretriever"
+	"github.com/juliandanciu/go-feature-flag/retriever/fileretriever"
 
-	ffclient "github.com/thomaspoignant/go-feature-flag"
+	ffclient "github.com/juliandanciu/go-feature-flag"
 
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
 )
 
 var client *ffclient.GoFeatureFlag

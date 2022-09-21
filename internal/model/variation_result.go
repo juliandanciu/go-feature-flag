@@ -1,6 +1,6 @@
 package model
 
-import "github.com/thomaspoignant/go-feature-flag/internal/flag"
+import "github.com/juliandanciu/go-feature-flag/internal/flag"
 
 type VariationResult struct {
 	TrackEvents   bool                  `json:"trackEvents"`

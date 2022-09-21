@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter/fileexporter"
+	"github.com/juliandanciu/go-feature-flag/exporter/fileexporter"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter"
+	"github.com/juliandanciu/go-feature-flag/exporter"
 )
 
 func TestFile_Export(t *testing.T) {

@@ -3,11 +3,11 @@ package notifier_test
 import (
 	"testing"
 
+	"github.com/juliandanciu/go-feature-flag/internal/flag"
+	flagv1 "github.com/juliandanciu/go-feature-flag/internal/flagv1"
+	"github.com/juliandanciu/go-feature-flag/notifier"
+	"github.com/juliandanciu/go-feature-flag/testutils/testconvert"
 	"github.com/stretchr/testify/assert"
-	"github.com/thomaspoignant/go-feature-flag/internal/flag"
-	flagv1 "github.com/thomaspoignant/go-feature-flag/internal/flagv1"
-	"github.com/thomaspoignant/go-feature-flag/notifier"
-	"github.com/thomaspoignant/go-feature-flag/testutils/testconvert"
 )
 
 func TestDiffCache_HasDiff(t *testing.T) {

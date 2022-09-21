@@ -5,11 +5,11 @@ import (
 	"os"
 	"testing"
 
+	"github.com/juliandanciu/go-feature-flag/internal/cache"
+	flagv1 "github.com/juliandanciu/go-feature-flag/internal/flagv1"
+	"github.com/juliandanciu/go-feature-flag/notifier"
+	"github.com/juliandanciu/go-feature-flag/testutils/testconvert"
 	"github.com/stretchr/testify/assert"
-	"github.com/thomaspoignant/go-feature-flag/internal/cache"
-	flagv1 "github.com/thomaspoignant/go-feature-flag/internal/flagv1"
-	"github.com/thomaspoignant/go-feature-flag/notifier"
-	"github.com/thomaspoignant/go-feature-flag/testutils/testconvert"
 )
 
 func Test_FlagCacheNotInit(t *testing.T) {

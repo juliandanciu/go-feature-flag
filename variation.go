@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter"
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
-	"github.com/thomaspoignant/go-feature-flag/internal/flag"
-	"github.com/thomaspoignant/go-feature-flag/internal/flagstate"
-	"github.com/thomaspoignant/go-feature-flag/internal/model"
+	"github.com/juliandanciu/go-feature-flag/exporter"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
+	"github.com/juliandanciu/go-feature-flag/internal/flag"
+	"github.com/juliandanciu/go-feature-flag/internal/flagstate"
+	"github.com/juliandanciu/go-feature-flag/internal/model"
 )
 
 const (

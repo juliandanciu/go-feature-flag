@@ -1,7 +1,7 @@
 package flag
 
 import (
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
 )
 
 type Flag interface {

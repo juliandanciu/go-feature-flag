@@ -9,13 +9,13 @@ sidebar_position: 1
 </p>
 
 <p align="center">
-    <a href="https://github.com/thomaspoignant/go-feature-flag/actions/workflows/ci.yml"><img src="https://github.com/thomaspoignant/go-feature-flag/actions/workflows/ci.yml/badge.svg" alt="Build Status" /></a>
+    <a href="https://github.com/juliandanciu/go-feature-flag/actions/workflows/ci.yml"><img src="https://github.com/juliandanciu/go-feature-flag/actions/workflows/ci.yml/badge.svg" alt="Build Status" /></a>
     <a href="https://coveralls.io/github/thomaspoignant/go-feature-flag"><img src="https://coveralls.io/repos/github/thomaspoignant/go-feature-flag/badge.svg" alt="Coverage Status" /></a>
     <a href="https://sonarcloud.io/dashboard?id=thomaspoignant_go-feature-flag"><img src="https://sonarcloud.io/api/project_badges/measure?project=thomaspoignant_go-feature-flag&metric=alert_status" alt="Sonarcloud Status" /></a>
-    <a href="https://github.com/thomaspoignant/go-feature-flag/actions/workflows/codeql-analysis.yml"><img src="https://github.com/thomaspoignant/go-feature-flag/workflows/CodeQL/badge.svg" alt="Build Status" /></a>
+    <a href="https://github.com/juliandanciu/go-feature-flag/actions/workflows/codeql-analysis.yml"><img src="https://github.com/juliandanciu/go-feature-flag/workflows/CodeQL/badge.svg" alt="Build Status" /></a>
     <br/>
-    <a href="https://github.com/thomaspoignant/go-feature-flag/releases"><img src="https://img.shields.io/github/v/release/thomaspoignant/go-feature-flag" alt="Release version" /></a>
-    <a href="https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag"><img src="https://godoc.org/github.com/thomaspoignant/go-feature-flag?status.svg" alt="GoDoc" /></a>
+    <a href="https://github.com/juliandanciu/go-feature-flag/releases"><img src="https://img.shields.io/github/v/release/thomaspoignant/go-feature-flag" alt="Release version" /></a>
+    <a href="https://pkg.go.dev/github.com/juliandanciu/go-feature-flag"><img src="https://godoc.org/github.com/juliandanciu/go-feature-flag?status.svg" alt="GoDoc" /></a>
     <img src="https://img.shields.io/github/go-mod/go-version/thomaspoignant/go-feature-flag?logo=go%20version" alt="Go version"/>
     <a href="LICENSE"><img src="https://img.shields.io/github/license/thomaspoignant/go-feature-flag" alt="License"/></a>
     <a href="https://github.com/avelino/awesome-go/#server-applications"><img src="https://awesome.re/mentioned-badge-flat.svg" alt="Mentioned in Awesome Go"/></a>

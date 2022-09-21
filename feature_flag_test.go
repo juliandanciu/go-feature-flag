@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/retriever/fileretriever"
-	"github.com/thomaspoignant/go-feature-flag/retriever/s3retriever"
+	"github.com/juliandanciu/go-feature-flag/retriever/fileretriever"
+	"github.com/juliandanciu/go-feature-flag/retriever/s3retriever"
 
 	"github.com/aws/aws-sdk-go/aws"
+	ffclient "github.com/juliandanciu/go-feature-flag"
+	"github.com/juliandanciu/go-feature-flag/testutils/mock"
 	"github.com/stretchr/testify/assert"
-	ffclient "github.com/thomaspoignant/go-feature-flag"
-	"github.com/thomaspoignant/go-feature-flag/testutils/mock"
 
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
 )
 
 func TestStartWithoutRetriever(t *testing.T) {

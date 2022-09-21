@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter"
+	"github.com/juliandanciu/go-feature-flag/exporter"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/thomaspoignant/go-feature-flag/testutils"
+	"github.com/juliandanciu/go-feature-flag/testutils"
 )
 
 func TestWebhook_IsBulk(t *testing.T) {

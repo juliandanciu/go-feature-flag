@@ -6,7 +6,7 @@ sidebar_position: 6
 
 ## Users
 Feature flag targeting and rollouts are all determined by the user you pass to your Variation calls.
-The SDK defines a [`User`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag/ffuser#User) struct and a [`UserBuilder`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag/ffuser#UserBuilder) to make this easy.
+The SDK defines a [`User`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag/ffuser#User) struct and a [`UserBuilder`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag/ffuser#UserBuilder) to make this easy.
 
 Here's an example:
 
@@ -53,11 +53,11 @@ Anonymous users work just like regular users, this information just helps you to
 ## Variation
 The Variation methods determine whether a flag is enabled or not for a specific user.
 There is a Variation method for each type:   
-[`BoolVariation`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#BoolVariation) , [`IntVariation`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#IntVariation)
-, [`Float64Variation`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#Float64Variation)
-, [`StringVariation`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#StringVariation)
-, [`JSONArrayVariation`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#JSONArrayVariation)
-, [`JSONVariation`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#JSONVariation)
+[`BoolVariation`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#BoolVariation) , [`IntVariation`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#IntVariation)
+, [`Float64Variation`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#Float64Variation)
+, [`StringVariation`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#StringVariation)
+, [`JSONArrayVariation`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#JSONArrayVariation)
+, [`JSONVariation`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#JSONVariation)
 
 ```go linenums="1"
 result, _ := ffclient.BoolVariation("your.feature.key", user, false)

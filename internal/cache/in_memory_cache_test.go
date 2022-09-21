@@ -3,11 +3,11 @@ package cache_test
 import (
 	"testing"
 
+	"github.com/juliandanciu/go-feature-flag/internal/cache"
+	"github.com/juliandanciu/go-feature-flag/internal/flag"
+	"github.com/juliandanciu/go-feature-flag/internal/flagv1"
+	"github.com/juliandanciu/go-feature-flag/testutils/testconvert"
 	"github.com/stretchr/testify/assert"
-	"github.com/thomaspoignant/go-feature-flag/internal/cache"
-	"github.com/thomaspoignant/go-feature-flag/internal/flag"
-	"github.com/thomaspoignant/go-feature-flag/internal/flagv1"
-	"github.com/thomaspoignant/go-feature-flag/testutils/testconvert"
 )
 
 func TestAll(t *testing.T) {

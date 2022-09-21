@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
-	"github.com/thomaspoignant/go-feature-flag/testutils/testconvert"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
+	"github.com/juliandanciu/go-feature-flag/testutils/testconvert"
 )
 
 func TestFlag_evaluateRule(t *testing.T) {

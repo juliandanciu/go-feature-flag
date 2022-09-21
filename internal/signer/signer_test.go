@@ -3,8 +3,8 @@ package signer_test
 import (
 	"testing"
 
+	"github.com/juliandanciu/go-feature-flag/internal/signer"
 	"github.com/stretchr/testify/assert"
-	"github.com/thomaspoignant/go-feature-flag/internal/signer"
 )
 
 func TestSign(t *testing.T) {

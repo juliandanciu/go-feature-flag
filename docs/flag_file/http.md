@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # HTTP endpoint
 
-The [__HTTP Retriever__](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag/retriever/httpretriever/#Retriever)
+The [__HTTP Retriever__](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag/retriever/httpretriever/#Retriever)
 will perform an HTTP Request with your configuration to get your flags.
 
 ## Example

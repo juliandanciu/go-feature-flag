@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter"
+	"github.com/juliandanciu/go-feature-flag/exporter"
 
-	"github.com/thomaspoignant/go-feature-flag/internal/fflog"
+	"github.com/juliandanciu/go-feature-flag/internal/fflog"
 )
 
 const (

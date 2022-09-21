@@ -7,9 +7,9 @@ sidebar_position: 4
 `go-feature-flag` core feature is to centralize all your feature flags in a source file, and to avoid hosting and maintaining a backend server to manage them.  
 
 Your file must be a valid `YAML`, `JSON` or `TOML` file with a list of flags
-*(examples: [`YAML`](https://github.com/thomaspoignant/go-feature-flag/tree/main/testdata/flag-config.yaml),
-[`JSON`](https://github.com/thomaspoignant/go-feature-flag/tree/main/testdata/flag-config.json),
-[`TOML`](https://github.com/thomaspoignant/go-feature-flag/tree/main/testdata/flag-config.toml))*.
+*(examples: [`YAML`](https://github.com/juliandanciu/go-feature-flag/tree/main/testdata/flag-config.yaml),
+[`JSON`](https://github.com/juliandanciu/go-feature-flag/tree/main/testdata/flag-config.json),
+[`TOML`](https://github.com/juliandanciu/go-feature-flag/tree/main/testdata/flag-config.toml))*.
 
 The easiest way to create your configuration file is to used
 [**GO Feature Flag Editor** available at https://thomaspoignant.github.io/go-feature-flag-editor/](https://thomaspoignant.github.io/go-feature-flag-editor/).  

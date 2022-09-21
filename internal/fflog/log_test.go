@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/thomaspoignant/go-feature-flag/internal/fflog"
+	"github.com/juliandanciu/go-feature-flag/internal/fflog"
 )
 
 func TestPrintf(t *testing.T) {

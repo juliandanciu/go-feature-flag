@@ -8,15 +8,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/internal/dataexporter"
+	"github.com/juliandanciu/go-feature-flag/internal/dataexporter"
 
+	"github.com/juliandanciu/go-feature-flag/exporter"
+	"github.com/juliandanciu/go-feature-flag/internal/flagv1"
+	"github.com/juliandanciu/go-feature-flag/testutils/mock"
 	"github.com/stretchr/testify/assert"
-	"github.com/thomaspoignant/go-feature-flag/exporter"
-	"github.com/thomaspoignant/go-feature-flag/internal/flagv1"
-	"github.com/thomaspoignant/go-feature-flag/testutils/mock"
 
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
-	"github.com/thomaspoignant/go-feature-flag/testutils"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
+	"github.com/juliandanciu/go-feature-flag/testutils"
 )
 
 func TestDataExporterScheduler_flushWithTime(t *testing.T) {

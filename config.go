@@ -6,9 +6,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/retriever"
+	"github.com/juliandanciu/go-feature-flag/retriever"
 
-	"github.com/thomaspoignant/go-feature-flag/notifier"
+	"github.com/juliandanciu/go-feature-flag/notifier"
 )
 
 // Config is the configuration of go-feature-flag.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter"
+	"github.com/juliandanciu/go-feature-flag/exporter"
 )
 
 // Exporter is an interface to describe how a exporter looks like.

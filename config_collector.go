@@ -3,7 +3,7 @@ package ffclient
 import (
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/internal/dataexporter"
+	"github.com/juliandanciu/go-feature-flag/internal/dataexporter"
 )
 
 // DataExporter is the configuration of your export target.

@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	httpretriever "github.com/thomaspoignant/go-feature-flag/retriever/httpretriever"
+	httpretriever "github.com/juliandanciu/go-feature-flag/retriever/httpretriever"
 
-	"github.com/thomaspoignant/go-feature-flag/internal"
+	"github.com/juliandanciu/go-feature-flag/internal"
 )
 
 // Retriever is a configuration struct for a GitHub retriever.

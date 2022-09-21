@@ -9,11 +9,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter/gcstorageexporter"
+	"github.com/juliandanciu/go-feature-flag/exporter/gcstorageexporter"
 
 	"github.com/aws/aws-sdk-go/aws"
+	"github.com/juliandanciu/go-feature-flag/exporter"
 	"github.com/stretchr/testify/assert"
-	"github.com/thomaspoignant/go-feature-flag/exporter"
 	"google.golang.org/api/option"
 )
 

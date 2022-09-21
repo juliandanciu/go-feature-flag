@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/thomaspoignant/go-feature-flag/retriever/githubretriever"
-	"github.com/thomaspoignant/go-feature-flag/testutils/mock"
+	"github.com/juliandanciu/go-feature-flag/retriever/githubretriever"
+	"github.com/juliandanciu/go-feature-flag/testutils/mock"
 
 	"github.com/stretchr/testify/assert"
 )

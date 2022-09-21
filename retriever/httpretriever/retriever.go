@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/internal"
+	"github.com/juliandanciu/go-feature-flag/internal"
 )
 
 // Retriever is a configuration struct for an HTTP endpoint retriever.

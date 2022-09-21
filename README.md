@@ -1,6 +1,6 @@
 > ## go-feature-flag v1 feedback
 > go-feature-flag is heading towards v1 and it may require a change on how to design your flags _(no worries we will keep backward compatibility)_.  
-> The roadmap is now publicly available in this [issue #291](https://github.com/thomaspoignant/go-feature-flag/issues/291), feel free to comment and give any feedback.
+> The roadmap is now publicly available in this [issue #291](https://github.com/juliandanciu/go-feature-flag/issues/291), feel free to comment and give any feedback.
 
 <p align="center">
   <img width="250" height="238" src="logo.png" alt="go-feature-flag logo" />
@@ -9,13 +9,13 @@
 # 🎛️ go-feature-flag [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=I%27ve%20discovered%20go-feature-flag%20a%20great%20solution%20to%20easily%20managed%20feature%20flag%20in%20golang&url=https%3A%2F%2Fgithub.com%2Fthomaspoignant%2Fgo-feature-flag&via=gofeatureflag&hashtags=golang,featureflags,featuretoggle,go)
 
 <p align="center">
-    <a href="https://github.com/thomaspoignant/go-feature-flag/actions/workflows/ci.yml"><img src="https://github.com/thomaspoignant/go-feature-flag/actions/workflows/ci.yml/badge.svg" alt="Build Status" /></a>
+    <a href="https://github.com/juliandanciu/go-feature-flag/actions/workflows/ci.yml"><img src="https://github.com/juliandanciu/go-feature-flag/actions/workflows/ci.yml/badge.svg" alt="Build Status" /></a>
     <a href="https://coveralls.io/github/thomaspoignant/go-feature-flag"><img src="https://coveralls.io/repos/github/thomaspoignant/go-feature-flag/badge.svg" alt="Coverage Status" /></a>
     <a href="https://sonarcloud.io/dashboard?id=thomaspoignant_go-feature-flag"><img src="https://sonarcloud.io/api/project_badges/measure?project=thomaspoignant_go-feature-flag&metric=alert_status" alt="Sonarcloud Status" /></a>
-    <a href="https://github.com/thomaspoignant/go-feature-flag/actions/workflows/codeql-analysis.yml"><img src="https://github.com/thomaspoignant/go-feature-flag/workflows/CodeQL/badge.svg" alt="Build Status" /></a>
+    <a href="https://github.com/juliandanciu/go-feature-flag/actions/workflows/codeql-analysis.yml"><img src="https://github.com/juliandanciu/go-feature-flag/workflows/CodeQL/badge.svg" alt="Build Status" /></a>
     <br/>
-    <a href="https://github.com/thomaspoignant/go-feature-flag/releases"><img src="https://img.shields.io/github/v/release/thomaspoignant/go-feature-flag" alt="Release version" /></a>
-    <a href="https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag"><img src="https://godoc.org/github.com/thomaspoignant/go-feature-flag?status.svg" alt="GoDoc" /></a>
+    <a href="https://github.com/juliandanciu/go-feature-flag/releases"><img src="https://img.shields.io/github/v/release/thomaspoignant/go-feature-flag" alt="Release version" /></a>
+    <a href="https://pkg.go.dev/github.com/juliandanciu/go-feature-flag"><img src="https://godoc.org/github.com/juliandanciu/go-feature-flag?status.svg" alt="GoDoc" /></a>
     <img src="https://img.shields.io/github/go-mod/go-version/thomaspoignant/go-feature-flag?logo=go%20version" alt="Go version"/>
     <a href="LICENSE"><img src="https://img.shields.io/github/license/thomaspoignant/go-feature-flag" alt="License"/></a>
     <a href="https://github.com/avelino/awesome-go/#server-applications"><img src="https://awesome.re/mentioned-badge-flat.svg" alt="Mentioned in Awesome Go"></a>
@@ -26,7 +26,7 @@
 
 ## Installation
 ```bash
-go get github.com/thomaspoignant/go-feature-flag
+go get github.com/juliandanciu/go-feature-flag
 ```
 ## What is go-feature-flag?
 
@@ -54,12 +54,12 @@ I've also written an [article](https://medium.com/better-programming/feature-fla
 
 https://user-images.githubusercontent.com/17908063/168597893-e957e648-b795-4b5f-94d5-265d272a2137.mp4
 
-_The code of this demo is available in [`thomaspoignant/go-feature-flag-demo`](https://github.com/thomaspoignant/go-feature-flag-demo) repository_.
+_The code of this demo is available in [`thomaspoignant/go-feature-flag-demo`](https://github.com/juliandanciu/go-feature-flag-demo) repository_.
 
 ## Can I use GO Feature Flag with another language?
 
 Originally GO Feature Flag was build to be a GOlang only libraries, but it limits too much the echo system.  
-To be compatible with more language we have implemented the [GO Feature Flag Relay Proxy](https://github.com/thomaspoignant/go-feature-flag-relay-proxy).
+To be compatible with more language we have implemented the [GO Feature Flag Relay Proxy](https://github.com/juliandanciu/go-feature-flag-relay-proxy).
 It is a service you can host that provides an API to evaluate your flags, you can call it using HTTP to get your variation.
 
 Since we believe in standardization we are also implementing [Open-feature](https://github.com/open-feature) providers to interact with this API in the language of your choice.  
@@ -91,14 +91,14 @@ if hasFlag {
 }
 ```
 The full documentation is available on https://thomaspoignant.github.io/go-feature-flag/  
-You can find more examples in the [examples/](https://github.com/thomaspoignant/go-feature-flag/tree/main/examples) directory.
+You can find more examples in the [examples/](https://github.com/juliandanciu/go-feature-flag/tree/main/examples) directory.
 
 ## Configuration
 
 `go-feature-flag` needs to be initialized to be used.  
-During the initialization you must give a [`ffclient.Config{}`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#Config) configuration object.
+During the initialization you must give a [`ffclient.Config{}`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#Config) configuration object.
 
-[`ffclient.Config{}`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#Config) is the only location where you can put the configuration.
+[`ffclient.Config{}`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#Config) is the only location where you can put the configuration.
 
 ### Example
 ```go
@@ -290,7 +290,7 @@ not: not of a logical expression
 
 ## Users
 Feature flag targeting and rollouts are all determined by the user you pass to your Variation calls.
-The SDK defines a [`User`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag/ffuser#User) struct and a [`UserBuilder`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag/ffuser#UserBuilder) to make this easy.
+The SDK defines a [`User`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag/ffuser#User) struct and a [`UserBuilder`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag/ffuser#UserBuilder) to make this easy.
 
 Here's an example:
 
@@ -318,12 +318,12 @@ You can also distinguish logged-in users from anonymous users in the SDK ([check
 ## Variation
 The Variation methods determine whether a flag is enabled or not for a specific user.
 There is a Variation method for each type:   
-[`BoolVariation`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#BoolVariation) 
-, [`IntVariation`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#IntVariation)
-, [`Float64Variation`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#Float64Variation)
-, [`StringVariation`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#StringVariation)
-, [`JSONArrayVariation`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#JSONArrayVariation)
-, [`JSONVariation`](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#JSONVariation)
+[`BoolVariation`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#BoolVariation) 
+, [`IntVariation`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#IntVariation)
+, [`Float64Variation`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#Float64Variation)
+, [`StringVariation`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#StringVariation)
+, [`JSONArrayVariation`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#JSONArrayVariation)
+, [`JSONVariation`](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#JSONVariation)
 
 ```go linenums="1"
 result, _ := ffclient.BoolVariation("your.feature.key", user, false)
@@ -364,7 +364,7 @@ But it doesn’t have to, having a complex **rollout** strategy allows you to ha
 - [Experimentation rollout](https://thomaspoignant.github.io/go-feature-flag/latest/rollout/experimentation/) - serve your feature only for a determined time *(perfect for A/B testing)*.
 
 ## Notifiers
-If you want to be informed when a flag has changed, you can configure a [**notifier**](https://pkg.go.dev/github.com/thomaspoignant/go-feature-flag#NotifierConfig).
+If you want to be informed when a flag has changed, you can configure a [**notifier**](https://pkg.go.dev/github.com/juliandanciu/go-feature-flag#NotifierConfig).
 
 A notifier will send one notification to the targeted system to inform them that a new flag configuration has been loaded.
 
@@ -436,6 +436,6 @@ This project is open for contribution, see the [contributor's guide](CONTRIBUTIN
 
 Thanks so much to our contributors.
 
-<a href="https://github.com/thomaspoignant/go-feature-flag/graphs/contributors">
+<a href="https://github.com/juliandanciu/go-feature-flag/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=thomaspoignant/go-feature-flag" />
 </a>

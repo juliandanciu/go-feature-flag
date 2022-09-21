@@ -11,10 +11,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter"
+	"github.com/juliandanciu/go-feature-flag/exporter"
 
-	"github.com/thomaspoignant/go-feature-flag/internal"
-	"github.com/thomaspoignant/go-feature-flag/internal/signer"
+	"github.com/juliandanciu/go-feature-flag/internal"
+	"github.com/juliandanciu/go-feature-flag/internal/signer"
 )
 
 // Exporter is the exporter of your data to a webhook.

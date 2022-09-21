@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/thomaspoignant/go-feature-flag/exporter"
+	"github.com/juliandanciu/go-feature-flag/exporter"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/thomaspoignant/go-feature-flag/testutils"
+	"github.com/juliandanciu/go-feature-flag/testutils"
 )
 
 func TestS3_Export(t *testing.T) {

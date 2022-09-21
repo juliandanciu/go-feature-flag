@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"
-	"github.com/thomaspoignant/go-feature-flag/exporter/s3exporter"
-	"github.com/thomaspoignant/go-feature-flag/retriever/fileretriever"
+	"github.com/juliandanciu/go-feature-flag/exporter/s3exporter"
+	"github.com/juliandanciu/go-feature-flag/retriever/fileretriever"
 
-	ffclient "github.com/thomaspoignant/go-feature-flag"
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
+	ffclient "github.com/juliandanciu/go-feature-flag"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
 )
 
 func main() {

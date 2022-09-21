@@ -8,11 +8,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/thomaspoignant/go-feature-flag/ffuser"
-	"github.com/thomaspoignant/go-feature-flag/retriever/k8sretriever"
+	"github.com/juliandanciu/go-feature-flag/ffuser"
+	"github.com/juliandanciu/go-feature-flag/retriever/k8sretriever"
 	"k8s.io/client-go/rest"
 
-	ffclient "github.com/thomaspoignant/go-feature-flag"
+	ffclient "github.com/juliandanciu/go-feature-flag"
 )
 
 func main() {
